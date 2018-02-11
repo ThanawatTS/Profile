@@ -1,4 +1,7 @@
 img {
-    border-radius: 50%;
-    
+    border-radius: 50%;    
+}
+
+body{
+    background: rgb(211, 211, 211);
 }
