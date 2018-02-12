@@ -1,7 +1,37 @@
 img {
-    border-radius: 50%;    
+    border-radius: 50%;  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+
 }
 
 body{
-    background: rgb(211, 211, 211);
+    background-image: url(../picture/bg-bluegreen.jpg);
+}
+
+.button{
+    display: inline;
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    text-decoration: none;
+    color: blanchedalmond;
+    background-color: cadetblue;
+    border: none;
+    border-radius: 15px;
+    padding: 12px;
+    margin-left: 400px;
+    
+}
+
+.button:hover {
+    background-color: aqua;
+}
+
+.button:active {
+    background-color: aquamarine;
+    box-shadow: 0 5px #666;
+    transform: translate(4px);
 }
